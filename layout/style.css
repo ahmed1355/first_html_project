@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 600px;
+  border: 1px solid green;
+  /* justify --horizontal 
+       align --vertical
+    */
+    
+    /* if we want to center to the middle of parent we have
+    to use both justify and align
+    */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+/* if we use flex direction --column ,,both justify and align 
+is ging to switch roles 
+*/
+   
+}
+
+.boxes{
+    background: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 5px;
+}
